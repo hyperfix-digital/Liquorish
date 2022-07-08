@@ -10,6 +10,7 @@ OR
 - Restructure the API into classes for each entity that provides crud operations
 - User MaterialUI for UI development
 - Use geolocation retrieved from web browser to filter local bars
+- break api routes into individual files within a api routes folder. then with express, iterate through those folder files, and append those routes defined within them to the original express object.
 
 data entities:
 
