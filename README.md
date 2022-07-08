@@ -11,6 +11,10 @@ OR
 - User MaterialUI for UI development
 - Use geolocation retrieved from web browser to filter local bars
 
+data entities:
+
+bar, bar_drinks, bar_pass, drink, drink_ingredients, ingredients, owners, owner_passwords, saved_drinks, tab_drinks, tabs, users, users_pass
+
 Compile the project with:
 ```
 tsc index.ts
