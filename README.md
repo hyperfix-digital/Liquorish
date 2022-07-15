@@ -7,4 +7,4 @@ npm run build
 npm run docker
 ```
 
-the dockerized backend will be running on localhost:9320
+the dockerized backend will be running on localhost:8080
