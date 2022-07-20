@@ -4,7 +4,7 @@
 #   If docker is running, it wont do anything, else it will build/pull the proper
 #   image and run it properly.
 
-HOST=hyperfix-digital
+HOST=hyperfixdigital
 PROJECT=liquorish
 RELEASE=backend
 CONTAINER_NAME=$PROJECT-$RELEASE;
