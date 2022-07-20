@@ -6,9 +6,14 @@
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.5.2",
+    "@types/node": "^16.11.45",
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "typescript": "^4.7.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -16,7 +21,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "docker": "npm run build; docker build --tag hyperfix-digital/liquorish:frontend --file ./docker/liquorish-frontend.Dockerfile ./"
+    "docker-build": "npm run build; docker build --tag hyperfix-digital/liquorish:frontend --file ./docker/liquorish-frontend.Dockerfile ./",
+    "docker-up": "/bin/bash ./run.sh"
   },
   "eslintConfig": {
     "extends": [
