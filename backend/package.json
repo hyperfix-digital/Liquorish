@@ -7,7 +7,7 @@
     "start": "node ./build/server.js",
     "build": "npx tsc",
     "docker-build": "npm run build; docker build --tag hyperfixdigital/liquorish:backend --file ./docker/liquorish-backend.Dockerfile ./",
-    "docker-run": "/bin/bash ./run.sh",
+    "docker-up": "/bin/bash ./run.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
